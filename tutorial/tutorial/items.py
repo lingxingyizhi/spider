@@ -8,7 +8,14 @@
 import scrapy
 
 
-class TutorialItem(scrapy.Item):
+#class TutorialItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+   # pass
+class tongcheng_com(scrapy.Item):
+    chexing = scrapy.Field()
+    jiage = scrapy.Field()
+    gonglishu = scrapy.Field()
+    shoucishangpai = scrapy.Field()
+    pailiang = scrapy.Field()
+    biansuxiang = scrapy.Field()
